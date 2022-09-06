@@ -238,3 +238,87 @@ footer {
     margin: 0 auto;
 
 }
+
+@media screen and (min-width:730px) {
+        /* HEADER */
+
+    .header__toggleMenu {
+        display: none;
+    }
+
+    .header__navDesktop {
+        display: contents;
+    }
+
+    /* **************PAGE INDEX*************** */
+    /* SECTION PORTADA */
+
+    .main__sectionPortada {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__sectionPortada h1 {
+        width: 40%;
+        font-size: 2.2rem;
+    }
+
+    .sectionPortada__img {
+        width: 40%;
+    }
+
+    /* **************PAGE PRODUCTOS*************** */
+    .main__sectionProductos article {
+        width: 30%;
+        height: 35vw;
+        /* width: ; */
+    }
+
+}
+
+@media screen and (min-width:945px) {
+
+    .main__sectionPortada h1 {
+        font-size: 2.8rem;
+    }
+
+
+    .main__sectionProductos div{
+        min-width: 45%;
+    }
+
+    .main__sectionProductos {
+        /* width: 80%; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    /* .container__cards {
+        width: 80%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        width: 930px;
+    }
+
+    .section2__cards {
+        width: 400px;
+    } */
+
+    /* **************PAGE PRODUCTOS*************** */
+
+
+    .productosH2 {
+        margin: 20px;
+    }
+
+    .main__sectionProductosP article {
+        width: 20%;
+        height: 30vw;
+        margin: 15px;
+    }
+
+}
