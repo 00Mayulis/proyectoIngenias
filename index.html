@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alegra | Inicio </title>
+    <link rel="shortcut icon" href="./asset/icons/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width:730px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="(min-width:945px)">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+            <div class="header__toggleMenu">
+                <img src="./asset/icons/mh.png" alt="Icono toggle menu" class="header__iconos">
+            </div>
+            
+            <div class="header__logoAlegra">
+                <img src="./asset/icons/logo.jpg" alt="logo Alegra" class="logoAlegra">
+            </div>
+            
+            <div class="header__navDesktop">
+                <ul>
+                    <li>
+                        <a href="./index.html">Inicio</a>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="./pages/productos.html">Productos</a>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="./pages/contactanos.html">contactanos</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header__logosUyC">
+                <a href="./pages/login.html">
+                    <img src="./asset/icons/usuario.png" alt="Icono usuario" class="header__iconos">
+                </a>
+                <a href="./pages/carrito.html">
+                    <img src="./asset/icons/carrito.png" alt="Icono carrito" class="header__iconos">
+                </a>
+                
+            </div>            
+            <figure class="header__whatsappChat">
+                <img src="./asset/icons/whatsapp2.png" alt="">
+            </figure>
+
+    </header>
+
+    <main>
+
+        <section class="main__sectionPortada">
+            <h1>Hola! Soy Jorgelina, emprendedora y fundadora de Alegra. Animate a darle alegría a tus espacios con estos muebles de diseño o darle una segunda oportunidad a los tuyos restaurandolos. </h1> 
+            <img src="./asset/img/imgJor.png" alt="foto Jorgelina portada" class="sectionPortada__img"> <!--aca va la foto de Jor -->
+        </section>
+
+        <section class="main__sectionProductos">
+            <!-- es mejor ponerle class a cada div o usar la pseudoclase :nth-child()??????? -->
+            <div class="sectionProductos__alfombras">
+                <a href="">Alfombras</a>
+            </div>
+            <div class="sectionProductos__respaldos">
+                <a href="">Respaldos</a>
+                
+            </div>
+            <div class="sectionProductos__sillas">
+                <a href="">Sillas</a>
+            </div>
+            <div class="sectionProductos__butacas">
+                <a href="">Butacas</a>
+            </div>
+        </section>
+
+        <!-- FALTA HACER FOTOS PARA SECCION RESTAURACIONES -->
+        <!-- <section class="main__sectionRestauraciones">
+            <a href="./pages/restauracion.html">Restauraciones</a>
+        </section> -->
+
+        <section class="main__sectionInfo">
+            <div class="sectionInfo__div">
+                <img src="./asset/icons/mediosDePago.png" alt="Icono medios de pago" class="sectionInfo__icono">
+                <p class="pMayusc">Medios de pago</p> <!--en css poner en mayusculas -->
+                <p>Transferencia, tarjeta de débito o crédito</p>
+            </div>
+
+            <div class="sectionInfo__div">
+                <img src="./asset/icons/envios.png" alt="Icono envios" class="sectionInfo__icono">
+                <p class="pMayusc">Envíos a todo el país</p>
+                <p>Vía Cargo</p>
+            </div>
+
+            <div class="sectionInfo__div">
+                <img src="./asset/icons/seg.png" alt="" class="sectionInfo__icono">
+                <p class="pMayusc">Seguridad</p>
+                <p>Tus datos estarán asegurados </p>
+            </div>
+
+            <div class="sectionInfo__div">
+                <img src="./asset/icons/whatsapp.png" alt="Logo Whatsapp" class="sectionInfo__icono">
+                <p class="pMayusc">Asesoramiento por Whatsapp</p>
+                <p>299 5176917</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright © Alegra 2022 | Todos los derechos reservados
+            </p>
+    </footer>
+
+    
+</body>
+
+</html>

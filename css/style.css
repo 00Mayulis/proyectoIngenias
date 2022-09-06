@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    color: #666564;
+}
+
+body {
+    margin: 0 20px
+}
+
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 100%;
+    margin-top: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navDesktop {
+    display: none;
+
+}
+
+.header__navDesktop ul {
+    width: 50vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0px ;
+}
+
+.header__navDesktop li a {
+    text-decoration: none;
+    color: #666564;
+    text-transform:uppercase;
+    font-size: 1.2rem;
+}
+
+.header__navDesktop li a:hover {
+    font-style: italic;
+    font-weight: 700;
+    color: #EAD2BB;
+
+}
+
+.logoAlegra {
+    height: 100px;
+}
+
+.header__iconos {
+    height: 50px;
+}
+
+.header__whatsappChat img{
+    height: 60px;
+    width: 60px;
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+/* **************************************** */
+/* FOOTER */
+footer {
+    height: 5vh;
+    background-color: #F2F2F2;
+    text-align: center;
+    font-size: 1.4rem;
+    padding-top: 10px;
+}
+
+/* **************PAGE INDEX*************** */
+/* **************************************** */
+/* SECTION PORTADA */
+
+.main__sectionPortada {
+    display: flex;
+    flex-direction: column;
+    background-color:#faebdd;
+    ;
+    /* justify-content: center; */
+}
+
+.main__sectionPortada h1 {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin: 10px auto;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 1.8rem;
+}
+
+.sectionPortada__img {
+    width: 100%;
+    align-items: center;
+    /* como ponerla al centro */
+}
+
+/* **************************************** */
+/* SECTION PRODUCTOS */
+
+.main__sectionProductos div {
+    height: 20vh;
+    margin: 20px;
+    border-radius: 9px;
+    box-shadow: 0px 4px 8px 0px #00000029;
+}
+
+.main__sectionProductos a {
+    font-family: 'Beth Ellen', cursive;
+    font-size: 2.4rem;
+    color: #EAD2BB;
+    margin:40px;
+}
+
+.sectionProductos__alfombras {
+    background-image: url("/asset/img/productosAlfombra.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sectionProductos__alfombras a {
+    display: block;
+    text-align: right;
+}
+
+.sectionProductos__respaldos {
+    background-image: url("/asset/img/productosRespaldo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sectionProductos__sillas {
+    background-image: url("/asset/img/productosSilla.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sectionProductos__sillas a {
+    display: block;
+    text-align: right;
+}
+
+.sectionProductos__butacas {
+    background-image: url("/asset/img/productosButaca.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* **************************************** */
+/* SECTION INFO */
+.main__sectionInfo {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.sectionInfo__div {
+    text-align: center;
+    margin: 0 10px;
+}
+
+.sectionInfo__icono {
+    height: 80px;
+}
+
+/* **************PAGE PRODUCTOS*************** */
+/* es conveniente hacer un css por cada pagina? porque de esa forma podría poner que todos los h2 sean de tal forma, sin tener que poner una clase a CADA h2 */
+.main__sectionProductosP {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* puedo poner sino .main__sectionProductos H2? */
+.productosH2 {
+    width: 100%;
+    font-family: 'Beth Ellen', cursive;
+    font-size: 3.6rem;
+    color: #EAD2BB;
+    /* margin:40px; */
+    text-align: center;
+}
+
+.main__sectionProductosP article {
+    width: 40%;
+    height: 60vw;
+    text-align: center;
+    margin-bottom: 15px;
+    /* box-shadow: 0px 4px 8px 0px #00000029; */
+    border-radius: 0 0 9px 9px;
+    /* background-color: #F2F2F2; */
+
+}
+
+.main__sectionProductosP article img {
+    width: 100%;
+    border-radius: 9px 9px 0 0;
+}
+
+.main__sectionProductosP article div{
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 0 0 9px 9px;
+    margin-top: -5px;
+}
+
+.main__sectionProductosP h3 {
+    font-size: 1.6rem;
+    padding: 5px;
+}
+
+.main__sectionProductosP h4 {
+    font-size: 1.4rem;
+    padding: 5px;
+}
+
+.main__sectionProductosP p {
+    font-size: 1.4rem;
+    border-radius: 10px;
+    border: solid grey;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+
+}
