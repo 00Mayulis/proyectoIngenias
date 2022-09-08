@@ -1,6 +1,6 @@
 
 
-Proyecto realizado en grupo con Ingenias YPF. 
+Proyecto grupal realizado con el curso "Ingenias YPF". 
 Desarrollamos el sitio web de la marca Alegra, muebles de diseño.
 Realizamos estudio de mercado, escuchamos las necesidades del cliente.
 Diseño y prototipo con Figma.
