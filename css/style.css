@@ -285,6 +285,16 @@ footer {
     border: solid 0.5px;
 }
 
+.input--enviar {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background-color: #EAD2BB;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 
 @media screen and (min-width:730px) {
         /* HEADER */
