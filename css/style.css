@@ -295,6 +295,89 @@ footer {
     cursor: pointer;
 }
 
+/* CARRITO */
+.h2Carrito {
+    font-size: 2.8rem;
+    color: #EAD2BB;
+    margin-bottom: 40px;
+    text-align: center;
+} 
+
+.producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    margin: 20px 0;
+}
+
+.producto figure {
+    display: flex;
+    align-items: center;
+}
+.producto figure img {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.producto p {
+    font-weight: bold;
+}
+
+.producto figure p {
+    font-size: 12px;
+    font-weight: 300;
+    color: gray;
+}
+
+.producto div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.producto div img {
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+}
+
+.sectionTotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--text-input-field);
+    border-radius: 12px;
+    /* margin: 20px 0; */
+}
+
+.sectionTotal p {
+    font-weight: bold;
+    font-size: var(--mg);
+}
+
+main button {
+    background-color:#EAD2BB;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    border: none;
+    margin: 10px 0;
+
+
+}
+
+main button a {
+    font-weight: bold;
+    font-size: var(--lg);
+    font-family: var(--QS);
+    color: var(--white);
+    text-decoration: none;
+}
 
 @media screen and (min-width:730px) {
         /* HEADER */
@@ -330,6 +413,14 @@ footer {
         width: 30%;
         height: 35vw;
         /* width: ; */
+    }
+
+    /* **************PAGE CARRITO*************** */
+    .mainCarrito {
+        width: 50vw;
+        max-width: 500px;
+        font-size: var(--lg);
+        margin: 0 auto;
     }
 
 }
