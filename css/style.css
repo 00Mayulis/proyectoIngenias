@@ -18,9 +18,10 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    height: 15vh;
+    height: 120px;
     width: 100%;
-    position: fixed;
+    position: sticky;
+    top: 0px;
     justify-content: space-around;
     align-items: center;
     background-color: white;
