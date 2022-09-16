@@ -241,6 +241,17 @@ footer {
 
 }
 
+.botonAgregar {
+    cursor: pointer;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+}
+
 
 /* **************PAGE CONTACTANOS (aplica para LOGIN.HTML)*************** */
 /* **************************************** */
