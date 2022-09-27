@@ -17,12 +17,11 @@ body {
 /* HEADER */
 header {
     display: flex;
-    flex-direction: row;
     height: 120px;
-    width: 100%;
+    /* width: 100%; */
     position: sticky;
     top: 0px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: white;
 }
@@ -33,7 +32,7 @@ header {
 }
 
 .header__navDesktop ul {
-    width: 50vw;
+    width: 60vw;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -58,8 +57,15 @@ header {
     height: 100px;
 }
 
-.header__iconos {
-    height: 50px;
+.header__logosUyC {
+    margin-right: 0%;
+}
+
+i {
+    margin: 10px;
+    font-size: 3rem;
+    text-align: center;
+    color: lightgray;
 }
 
 .header__whatsappChat img{
